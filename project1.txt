@@ -1,0 +1,67 @@
+
+#Problem Statement
+
+A telecommunications company is experiencing a high customer churn rate. Every month, a significant number of customers discontinue their services, leading to revenue loss and increased customer acquisition costs.
+The company wants to identify customers who are likely to churn so that proactive retention strategies can be implemented before customers leave.
+
+Instead of reacting after a customer has already churned, the business wants to predict churn in advance using customer demographic information, subscription details, service usage, and billing history.
+# Business Objective
+
+The primary objective of this project is to reduce customer churn by identifying customers who are at high risk of leaving.
+
+The business aims to:
+
+• Improve customer retention
+
+• Reduce revenue loss
+
+• Improve customer satisfaction
+
+• Reduce marketing costs by targeting only high-risk customers
+## Data Science Problem Statement
+
+This business problem can be formulated as a supervised binary classification problem.
+Target Variable
+Churn
+Possible Values
+
+• Yes
+• No
+
+Machine Learning Goal
+
+Predict whether a customer is likely to churn based on historical customer information.
+#Dataset Information
+
+The Telecom Customer Churn dataset contains customer demographic information, subscribed services, billing information and customer churn status.
+
+The dataset includes features such as:
+
+• Gender
+
+• Senior Citizen
+
+• Partner
+
+• Dependents
+
+• Tenure
+
+• Phone Service
+
+• Internet Service
+
+• Contract Type
+
+• Payment Method
+
+• Monthly Charges
+
+• Total Charges
+
+• Churn
+## Conclusion
+
+This project establishes the business understanding required before building any machine learning model.
+
+Understanding the business objective helps ensure that the final model solves the right problem rather than simply achieving a high accuracy score.
