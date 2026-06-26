@@ -342,29 +342,6 @@ else:
 
 print("\n")
 
-print("Hypothesis 3")
-
-print("H0 : No relationship exists between Tenure and Monthly Charges")
-
-print("H1 : Relationship exists")
-
-corr,p = stats.pearsonr(
-    df["Tenure Months"],
-    df["Monthly Charges"]
-)
-
-print("\nCorrelation :",round(corr,3))
-
-print("P Value :",round(p,5))
-
-if p < 0.05:
-    print("Reject Null Hypothesis")
-    print("Significant correlation found.")
-else:
-    print("Fail to Reject Null Hypothesis")
-
-print("\n")
-
 print("Hypothesis 4")
 
 print("H0 : CLTV is same for churned and retained customers")
